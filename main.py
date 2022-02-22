@@ -39,7 +39,7 @@ if __name__ == "__main__":
     enemies.append(Goblin(10, 3, 2, 1))
     enemies.append(Goblin(15, 2, 1, 2))
     enemies.append(Goblin(12, 3, 1, 3))
-
+    
     round = 1
     while len(enemies) != 0 and len(players) != 0:
         print(f"Round #{round}, ===Fight!===") 
